@@ -4,16 +4,16 @@
 
   <defs>
     <radialGradient id="termGlow" cx="0.5" cy="0.5" r="0.9">
-      <stop offset="0%" stop-color="#0A1120"/>
-      <stop offset="100%" stop-color="#05070D"/>
+      <stop offset="0%" stop-color="#090F1C"/>
+      <stop offset="100%" stop-color="#000000"/>
     </radialGradient>
   </defs>
 
   <rect x="0" y="0" width="900" height="320" fill="url(#termGlow)"/>
 
   <!-- window -->
-  <rect x="40" y="22" width="820" height="274" rx="10" fill="#070B16" stroke="#16243C" stroke-width="1"/>
-  <rect x="40" y="22" width="820" height="38" rx="10" fill="#0A0F1C"/>
+  <rect x="40" y="22" width="820" height="274" rx="10" fill="#04060C" stroke="#16243C" stroke-width="1"/>
+  <rect x="40" y="22" width="820" height="38" rx="10" fill="#05070E"/>
   <line x1="40" y1="60" x2="860" y2="60" stroke="#16243C" stroke-width="1"/>
   <circle cx="72" cy="41" r="5" fill="#24344F"/>
   <circle cx="92" cy="41" r="5" fill="#24344F"/>
@@ -28,7 +28,7 @@
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.6s" fill="freeze"/>
-      <text x="70" y="118"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> loading identity ......... </tspan><tspan fill="#C9D4E3">student · builder · AI/ML developer</tspan></text>
+      <text x="70" y="118"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> loading identity ......... </tspan><tspan fill="#C9D4E3">student · builder · obsessed with intelligence</tspan></text>
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.8s" fill="freeze"/>
@@ -44,16 +44,16 @@
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="6.4s" fill="freeze"/>
-      <text x="70" y="222"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> current state ............ </tspan><tspan fill="#C9D4E3">mid-transformation · velocity over polish</tspan></text>
+      <text x="70" y="222"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> current state ............ </tspan><tspan fill="#C9D4E3">human-in-the-loop training</tspan></text>
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="7.6s" fill="freeze"/>
-      <text x="70" y="248"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#00F7FF"> ready.</tspan></text>
+      <text x="70" y="248"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#00F7FF"> ready. </tspan><tspan fill="#3A4A63">// curiosity remaining: ∞</tspan></text>
     </g>
   </g>
 
   <!-- cursor: blinks slowly after the last line, the system still thinking -->
-  <rect x="130" y="238" width="9" height="17" fill="#00F7FF">
+  <rect x="364" y="238" width="9" height="17" fill="#00F7FF">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.4s" begin="8.6s" repeatCount="indefinite"/>
   </rect>
 </svg>

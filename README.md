@@ -2,7 +2,7 @@
 
 <img width="100%" src="assets/hero.svg" alt="PIYUSH.AI — a system waking inside a dark computational space: a breathing cyan core, a node field with traveling signals, and the name in light lettering." />
 
-<code>STUDENT · BUILDER · AI/ML DEVELOPER</code>
+<code>STUDENT · BUILDER · LEARNING BY BUILDING</code>
 
 </div>
 
@@ -16,9 +16,11 @@
 
 ## `// ABOUT THE SYSTEM`
 
-Early-arc AI/ML builder. The work here is a workbench, not a portfolio: a vision-language model being trained from scratch instead of assembled from libraries, a small hosting experiment, and this profile — which is itself an instrument panel for a mind in progress.
+Early-arc AI/ML builder, running a long experiment: I believe the best way to understand intelligence is to try building it — so the work here is a workbench, not a portfolio. A vision-language model trained from scratch instead of assembled from libraries. A small hosting experiment. This instrument panel for a mind in training.
 
-What's real is measured. What isn't real yet is drawn as empty space, not as a claim.
+The philosophy is simple: build it, break it, read the error, build it again. The enthusiasm is unapologetic: there is nothing more exciting on Earth than watching something you trained begin to think.
+
+What's real is measured. What isn't real yet is drawn as empty space — and empty space is where the next build lands.
 
 ---
 
@@ -26,7 +28,7 @@ What's real is measured. What isn't real yet is drawn as empty space, not as a c
 
 <img width="100%" src="assets/constellation.svg" alt="Skill graph as a working architecture: module boxes — system design, data modeling, Python backend, ML pipelines, fine-tuning, eval, LLMs, MLOps — connected by directed workflow arrows (specs, features, train loop, checkpoints, ship, deploys, inference back to the API, monitors), with the indoor-navigation stack as its own subsystem pipeline from SLAM to path planning. Fast async pulses travel the edges." />
 
-The real workflow, drawn as a graph: design → train → serve → monitor, with fast async pulses traveling every edge. States are honest — no percentage bars.
+The real workflow, drawn as a graph: design → train → serve → monitor, with fast async pulses traveling every edge — real systems breathe, and so does this one. States are honest: a skill has no measured width until it's shipped.
 
 ---
 
@@ -41,7 +43,7 @@ The real workflow, drawn as a graph: design → train → serve → monitor, wit
 | Fine-tuning | `BUILDING` | PEFT & adapters · dataset curation · eval & benchmarks |
 | Indoor navigation | `ACTIVE` | SLAM & localization · sensor fusion · path planning · mapping |
 
-States are honest — no percentage bars, because a self-taught skill has no measured width.
+States are honest — no percentage bars, because a self-taught skill has no measured width. Current obsessions: RAG that actually retrieves, models that know what they don't know, and a robot that finds its way home.
 
 ---
 

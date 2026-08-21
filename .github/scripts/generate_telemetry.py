@@ -25,7 +25,7 @@ GRID_X, GRID_Y = 40, 78
 GRID_W = WEEKS * PITCH - GAP
 
 LEVEL_FILL = {
-    0: "#0D1526",
+    0: "#0A0F1C",
     1: "#0E3A4A",
     2: "#0F5C70",
     3: "#00A9C0",
@@ -97,7 +97,7 @@ def shell(inner: str) -> str:
             f'real GitHub data</title><desc id="d">Each cell is one real day of contributions; '
             f'brightness follows GitHub contribution levels. Regenerated daily by a GitHub '
             f'Action and timestamped in-image.</desc>'
-            f'<rect width="1000" height="230" fill="#05070D"/>'
+            f'<rect width="1000" height="230" fill="#000000"/>'
             f'<rect x="20" y="20" width="960" height="190" rx="10" fill="none" stroke="#16243C" '
             f'stroke-width="1"/>{inner}</svg>')
 

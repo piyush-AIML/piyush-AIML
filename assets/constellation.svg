@@ -4,8 +4,8 @@
 
   <defs>
     <radialGradient id="skyGlow" cx="0.5" cy="0.45" r="0.9">
-      <stop offset="0%" stop-color="#0A1120"/>
-      <stop offset="100%" stop-color="#05070D"/>
+      <stop offset="0%" stop-color="#090F1C"/>
+      <stop offset="100%" stop-color="#000000"/>
     </radialGradient>
     <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#2A3D63"/>
@@ -126,7 +126,7 @@
 
     <!-- SYSTEM DESIGN · ACTIVE -->
     <g>
-      <rect x="40" y="80" width="150" height="64" rx="8" fill="#0A1120" stroke="#00F7FF" stroke-opacity="0.4">
+      <rect x="40" y="80" width="150" height="64" rx="8" fill="#070A12" stroke="#00F7FF" stroke-opacity="0.4">
         <animate attributeName="stroke-opacity" values="0.3;0.55;0.3" dur="7s" repeatCount="indefinite"/>
       </rect>
       <text x="54" y="102" font-size="11.5" font-weight="600" fill="#EAF6FF">SYSTEM DESIGN</text>
@@ -136,7 +136,7 @@
 
     <!-- DATA MODELING · ACTIVE -->
     <g>
-      <rect x="40" y="220" width="150" height="64" rx="8" fill="#0A1120" stroke="#00F7FF" stroke-opacity="0.4">
+      <rect x="40" y="220" width="150" height="64" rx="8" fill="#070A12" stroke="#00F7FF" stroke-opacity="0.4">
         <animate attributeName="stroke-opacity" values="0.3;0.55;0.3" dur="7.5s" begin="1s" repeatCount="indefinite"/>
       </rect>
       <text x="54" y="242" font-size="11.5" font-weight="600" fill="#EAF6FF">DATA MODELING</text>
@@ -146,7 +146,7 @@
 
     <!-- PYTHON · BACKEND · ACTIVE -->
     <g>
-      <rect x="250" y="150" width="150" height="64" rx="8" fill="#0A1120" stroke="#00F7FF" stroke-opacity="0.45">
+      <rect x="250" y="150" width="150" height="64" rx="8" fill="#070A12" stroke="#00F7FF" stroke-opacity="0.45">
         <animate attributeName="stroke-opacity" values="0.35;0.6;0.35" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
       </rect>
       <text x="264" y="172" font-size="11.5" font-weight="600" fill="#EAF6FF">PYTHON · BACKEND</text>
@@ -156,7 +156,7 @@
 
     <!-- ML PIPELINES · LEARNING -->
     <g>
-      <rect x="460" y="80" width="150" height="64" rx="8" fill="#0A1120" stroke="#7C3AED" stroke-opacity="0.5"/>
+      <rect x="460" y="80" width="150" height="64" rx="8" fill="#070A12" stroke="#7C3AED" stroke-opacity="0.5"/>
       <text x="474" y="102" font-size="11.5" font-weight="600" fill="#EAF6FF">ML PIPELINES</text>
       <text x="474" y="118" font-size="9" letter-spacing="1.5" fill="#7C3AED">LEARNING</text>
       <text x="474" y="132" font-size="8" fill="#4A5B78">features · train loop</text>
@@ -164,7 +164,7 @@
 
     <!-- FINE-TUNING · BUILDING -->
     <g>
-      <rect x="460" y="215" width="150" height="64" rx="8" fill="#0A1120" stroke="#E879F9" stroke-opacity="0.6">
+      <rect x="460" y="215" width="150" height="64" rx="8" fill="#070A12" stroke="#E879F9" stroke-opacity="0.6">
         <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="4s" repeatCount="indefinite"/>
       </rect>
       <text x="474" y="237" font-size="11.5" font-weight="600" fill="#EAF6FF">FINE-TUNING</text>
@@ -174,7 +174,7 @@
 
     <!-- EVAL · BENCHMARKS · LEARNING -->
     <g>
-      <rect x="460" y="350" width="150" height="64" rx="8" fill="#0A1120" stroke="#7C3AED" stroke-opacity="0.5"/>
+      <rect x="460" y="350" width="150" height="64" rx="8" fill="#070A12" stroke="#7C3AED" stroke-opacity="0.5"/>
       <text x="474" y="372" font-size="11.5" font-weight="600" fill="#EAF6FF">EVAL · BENCHMARKS</text>
       <text x="474" y="388" font-size="9" letter-spacing="1.5" fill="#7C3AED">LEARNING</text>
       <text x="474" y="402" font-size="8" fill="#4A5B78">metrics · evals</text>
@@ -182,7 +182,7 @@
 
     <!-- LLMS · ACTIVE -->
     <g>
-      <rect x="670" y="150" width="150" height="64" rx="8" fill="#0A1120" stroke="#00F7FF" stroke-opacity="0.45">
+      <rect x="670" y="150" width="150" height="64" rx="8" fill="#070A12" stroke="#00F7FF" stroke-opacity="0.45">
         <animate attributeName="stroke-opacity" values="0.35;0.6;0.35" dur="6.8s" begin="1.6s" repeatCount="indefinite"/>
       </rect>
       <text x="684" y="172" font-size="11.5" font-weight="600" fill="#EAF6FF">LLMS</text>
@@ -192,7 +192,7 @@
 
     <!-- MLOPS · DEPLOY · EXPLORING -->
     <g>
-      <rect x="670" y="340" width="150" height="64" rx="8" fill="#0A1120" stroke="#3A4A63" stroke-opacity="0.7"/>
+      <rect x="670" y="340" width="150" height="64" rx="8" fill="#070A12" stroke="#3A4A63" stroke-opacity="0.7"/>
       <text x="684" y="362" font-size="11.5" font-weight="600" fill="#EAF6FF">MLOPS · DEPLOY</text>
       <text x="684" y="378" font-size="9" letter-spacing="1.5" fill="#5A6B85">EXPLORING</text>
       <text x="684" y="392" font-size="8" fill="#4A5B78">serving · monitoring</text>
@@ -205,19 +205,19 @@
     <text x="44" y="474" font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="9" letter-spacing="2" fill="#00F7FF" fill-opacity="0.8">INDOOR NAVIGATION · ACTIVE</text>
 
     <g font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace">
-      <rect x="44" y="484" width="128" height="54" rx="6" fill="#0A1120" stroke="#00F7FF" stroke-opacity="0.3"/>
+      <rect x="44" y="484" width="128" height="54" rx="6" fill="#070A12" stroke="#00F7FF" stroke-opacity="0.3"/>
       <text x="56" y="504" font-size="10.5" font-weight="600" fill="#C9D4E3">SLAM</text>
       <text x="56" y="520" font-size="8" fill="#4A5B78">pose estimation</text>
 
-      <rect x="194" y="484" width="128" height="54" rx="6" fill="#0A1120" stroke="#00F7FF" stroke-opacity="0.3"/>
+      <rect x="194" y="484" width="128" height="54" rx="6" fill="#070A12" stroke="#00F7FF" stroke-opacity="0.3"/>
       <text x="206" y="504" font-size="10.5" font-weight="600" fill="#C9D4E3">SENSOR FUSION</text>
       <text x="206" y="520" font-size="8" fill="#4A5B78">lidar · imu · camera</text>
 
-      <rect x="344" y="484" width="128" height="54" rx="6" fill="#0A1120" stroke="#00F7FF" stroke-opacity="0.3"/>
+      <rect x="344" y="484" width="128" height="54" rx="6" fill="#070A12" stroke="#00F7FF" stroke-opacity="0.3"/>
       <text x="356" y="504" font-size="10.5" font-weight="600" fill="#C9D4E3">MAPPING</text>
       <text x="356" y="520" font-size="8" fill="#4A5B78">grid maps</text>
 
-      <rect x="494" y="484" width="128" height="54" rx="6" fill="#0A1120" stroke="#00F7FF" stroke-opacity="0.3"/>
+      <rect x="494" y="484" width="128" height="54" rx="6" fill="#070A12" stroke="#00F7FF" stroke-opacity="0.3"/>
       <text x="506" y="504" font-size="10.5" font-weight="600" fill="#C9D4E3">PATH PLANNING</text>
       <text x="506" y="520" font-size="8" fill="#4A5B78">a* · rrt</text>
     </g>
@@ -237,7 +237,7 @@
   <g>
     <circle cx="905" cy="340" r="50" fill="none" stroke="#16243C" stroke-width="1" stroke-dasharray="2 6"/>
     <text x="905" y="336" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="10" letter-spacing="2" fill="#3A4A63">UNMAPPED</text>
-    <text x="905" y="350" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="8" letter-spacing="1" fill="#2A3A55">future work</text>
+    <text x="905" y="350" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="8" letter-spacing="1" fill="#2A3A55">next builds land here</text>
   </g>
 
   <!-- legend -->
