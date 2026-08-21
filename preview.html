@@ -46,16 +46,14 @@
   }
   h2::before { content: "// "; color: var(--violet); }
   img { width: 100%; display: block; }
-  table { width: 100%; border-collapse: collapse; font-size: 13px; }
-  th, td {
-    text-align: left;
-    padding: 10px 12px;
-    border-bottom: 1px solid var(--line);
-    color: var(--text);
+  .note {
+    color: var(--dim);
+    font-size: 13px;
+    line-height: 1.9;
+    max-width: 76ch;
+    margin-top: 14px;
   }
-  th { color: var(--dim); font-weight: 500; letter-spacing: 2px; font-size: 11px; }
-  .state { color: var(--cyan); }
-  .empty { color: var(--faint); }
+  .note b { color: var(--cyan); font-weight: 600; }
   ol { color: var(--dim); line-height: 2; font-size: 13px; }
   a { color: var(--cyan); }
   .sub { color: var(--faint); font-size: 11px; text-align: center; margin-top: 8px; letter-spacing: 1px; }
@@ -80,48 +78,26 @@
   </section>
 
   <section>
-    <h2>ABOUT THE SYSTEM</h2>
-    <p style="color:var(--dim); font-size:14px; line-height:1.9; max-width:72ch;">
-      Early-arc AI/ML builder, running a long experiment: the best way to understand intelligence
-      is to try building it — so this is a workbench, not a portfolio. A vision-language model
-      trained from scratch instead of assembled from libraries. A small hosting experiment. This
-      instrument panel for a mind in training.
-    </p>
-    <p style="color:var(--faint); font-size:13px; line-height:1.9; max-width:72ch;">
-      The philosophy is simple: build it, break it, read the error, build it again. The
-      enthusiasm is unapologetic. What's real is measured; what isn't real yet is drawn as empty
-      space — and empty space is where the next build lands.
-    </p>
-  </section>
-
-  <section>
     <h2>LEARNING CONSTELLATION</h2>
     <img src="assets/constellation.svg" alt="">
+    <p class="note">The real workflow, drawn as a graph: design → train → serve → monitor, with fast async
+    pulses traveling every edge — real systems breathe, and so does this one.</p>
   </section>
 
   <section>
     <h2>CURRENT STACK</h2>
-    <table>
-      <tr><th>DOMAIN</th><th>STATE</th><th>SKILL TREE</th></tr>
-      <tr><td>Python backend</td><td class="state">ACTIVE</td><td>FastAPI · async APIs · REST · data &amp; storage · deploy/ops (exploring)</td></tr>
-      <tr><td>System design</td><td class="state">ACTIVE</td><td>distributed systems · scalability &amp; caching · queues · data modeling</td></tr>
-      <tr><td>LLMs</td><td class="state">ACTIVE</td><td>RAG &amp; embeddings · prompt &amp; context · agents &amp; tooling (exploring)</td></tr>
-      <tr><td>AI engineering</td><td class="state">LEARNING</td><td>ML pipelines · model serving &amp; eval · MLOps (exploring)</td></tr>
-      <tr><td>Fine-tuning</td><td class="state">BUILDING</td><td>PEFT &amp; adapters · dataset curation · eval &amp; benchmarks</td></tr>
-      <tr><td>Indoor navigation</td><td class="state">ACTIVE</td><td>SLAM &amp; localization · sensor fusion · path planning · mapping</td></tr>
-    </table>
+    <img src="assets/stack.svg" alt="">
+    <p class="note">Every module runs. Every state is honest — <b>ACTIVE</b> is what I use daily,
+    <b>LEARNING</b> is what I'm deliberately deepening, <b>BUILDING</b> is what's hot right now.
+    Current obsessions: RAG that actually retrieves, models that know what they don't know, and a
+    robot that finds its way home.</p>
   </section>
 
   <section>
     <h2>PROJECTS</h2>
-    <table>
-      <tr><th>PROJECT</th><th>WHAT IT IS</th><th>STATE</th></tr>
-      <tr><td><a href="https://github.com/piyush-AIML/VLM-1">VLM-1</a></td><td>vision-language model built from scratch — ViT + Q-Former</td><td class="state">BUILDING</td></tr>
-      <tr><td><a href="https://github.com/piyush-AIML/web-host">web-host</a></td><td>small hosting experiment for multiple sites</td><td class="state">ACTIVE</td></tr>
-      <tr><td><a href="https://github.com/piyush-AIML/piyush-AIML">this profile</a></td><td>the artifact you're reading</td><td class="state">DEPLOYED</td></tr>
-      <tr><td class="empty">PROJECT SLOT // AWAITING BUILD</td><td class="empty">—</td><td class="empty">EMPTY</td></tr>
-      <tr><td class="empty">PROJECT SLOT // AWAITING BUILD</td><td class="empty">—</td><td class="empty">EMPTY</td></tr>
-    </table>
+    <img src="assets/projects.svg" alt="">
+    <p class="note">The empty slots are not a design gap — they're the contract.
+    Empty space is where the next build lands.</p>
   </section>
 
   <section>
@@ -132,10 +108,14 @@
 
   <section>
     <h2>WHERE THIS IS HEADED</h2>
+    <img src="assets/roadmap.svg" alt="">
+    <p class="note">No deadlines — only loop-backs: build, measure, break, rebuild. The pulse keeps moving.</p>
+  </section>
+
+  <section>
+    <h2>REACH</h2>
     <ol>
-      <li>Finish what's started — keep the VLM-1 training loop honest and running</li>
-      <li>Open the lab — publish experiments and notebooks as they happen</li>
-      <li>Learn in public — notes on the from-scratch rebuilds, not summaries of tutorials</li>
+      <li>GitHub — <a href="https://github.com/piyush-AIML">piyush-AIML</a> &nbsp;(one channel for now)</li>
     </ol>
   </section>
 

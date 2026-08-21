@@ -10,17 +10,7 @@
 
 ## `// BOOT SEQUENCE`
 
-<img width="100%" src="assets/boot-sequence.svg" alt="A terminal where the profile's own boot log types itself out, ending with a blinking cursor." />
-
----
-
-## `// ABOUT THE SYSTEM`
-
-Early-arc AI/ML builder, running a long experiment: I believe the best way to understand intelligence is to try building it — so the work here is a workbench, not a portfolio. A vision-language model trained from scratch instead of assembled from libraries. A small hosting experiment. This instrument panel for a mind in training.
-
-The philosophy is simple: build it, break it, read the error, build it again. The enthusiasm is unapologetic: there is nothing more exciting on Earth than watching something you trained begin to think.
-
-What's real is measured. What isn't real yet is drawn as empty space — and empty space is where the next build lands.
+<img width="100%" src="assets/boot-sequence.svg" alt="A terminal where the profile's own boot log types itself out — identity in cyan, skill graph in violet, projects in magenta, honesty check in green, each line lighting its status dot — ending with a blinking cursor." />
 
 ---
 
@@ -34,30 +24,17 @@ The real workflow, drawn as a graph: design → train → serve → monitor, wit
 
 ## `// CURRENT STACK`
 
-| DOMAIN | STATE | SKILL TREE |
-| --- | --- | --- |
-| Python backend | `ACTIVE` | FastAPI · async APIs · REST · data & storage · deploy/ops (exploring) |
-| System design | `ACTIVE` | distributed systems · scalability & caching · queues · data modeling |
-| LLMs | `ACTIVE` | RAG & embeddings · prompt & context · agents & tooling (exploring) |
-| AI engineering | `LEARNING` | ML pipelines · model serving & eval · MLOps (exploring) |
-| Fine-tuning | `BUILDING` | PEFT & adapters · dataset curation · eval & benchmarks |
-| Indoor navigation | `ACTIVE` | SLAM & localization · sensor fusion · path planning · mapping |
+<img width="100%" src="assets/stack.svg" alt="The stack as a lab panel: six domain modules, each with a colored rail and state chip — Python backend, system design, LLMs and indoor navigation in active cyan; AI engineering in learning violet; fine-tuning in building magenta, its rail pulsing with a traveling signal. Skill pills list the concrete tools per domain. No percentage bars — a self-taught skill has no measured width." />
 
-States are honest — no percentage bars, because a self-taught skill has no measured width. Current obsessions: RAG that actually retrieves, models that know what they don't know, and a robot that finds its way home.
+Every module runs. Every state is honest — `ACTIVE` is what I use daily, `LEARNING` is what I'm deliberately deepening, `BUILDING` is what's hot right now. Current obsessions: RAG that actually retrieves, models that know what they don't know, and a robot that finds its way home.
 
 ---
 
 ## `// PROJECTS`
 
-| PROJECT | WHAT IT IS | STACK | STATE |
-| --- | --- | --- | --- |
-| [VLM-1](https://github.com/piyush-AIML/VLM-1) | vision-language model built from scratch — ViT + Q-Former architecture | Python, PyTorch | `BUILDING` |
-| [web-host](https://github.com/piyush-AIML/web-host) | small hosting experiment for multiple sites | HTML | `ACTIVE` |
-| [this profile](https://github.com/piyush-AIML/piyush-AIML) | the artifact you're reading — hand-built SVG, regenerated telemetry | Markdown, SVG, Actions | `DEPLOYED` |
-| `PROJECT SLOT // AWAITING BUILD` | — | — | `EMPTY` |
-| `PROJECT SLOT // AWAITING BUILD` | — | — | `EMPTY` |
+<img width="100%" src="assets/projects.svg" alt="Lab cards for the real work: VLM-1 (building, magenta, pulsing status dot), web-host (active, cyan) and this profile (deployed, green) — each with a state chip and its repo path. Two dashed slots wait empty, marked PROJECT SLOT // AWAITING BUILD, their borders slowly crawling — no invented projects." />
 
-Two slots stay open on purpose. Empty space is where the next build lands.
+The empty slots are not a design gap — they're the contract. Empty space is where the next build lands.
 
 ---
 
@@ -75,9 +52,9 @@ Two slots stay open on purpose. Empty space is where the next build lands.
 
 ## `// WHERE THIS IS HEADED`
 
-1. Finish what's started — keep the VLM-1 training loop honest and running
-2. Open the lab — publish experiments and notebooks as they happen
-3. Learn in public — notes on the from-scratch rebuilds, not summaries of tutorials
+<img width="100%" src="assets/roadmap.svg" alt="The plan as a data-flow pipeline: stage 01, finish VLM-1 (magenta), flows into stage 02, open the lab (violet), with a pulse traveling both directions, into stage 03, learn in public (cyan) — the failures are the curriculum." />
+
+No deadlines — only loop-backs: build, measure, break, rebuild. The pulse keeps moving.
 
 ---
 

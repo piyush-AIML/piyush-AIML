@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 320" width="100%" role="img" aria-labelledby="boot-title boot-desc">
   <title id="boot-title">Boot sequence — piyush-AIML profile v2</title>
-  <desc id="boot-desc">A terminal window where the profile's own boot log types itself out line by line, ending with a blinking cursor. Purely storytelling about this artifact — not real system output.</desc>
+  <desc id="boot-desc">A terminal window where the profile's own boot log types itself out line by line, each line lighting its status dot — identity in cyan, skills in violet, projects in magenta, honesty in green — ending with a blinking cursor. Purely storytelling about this artifact — not real system output.</desc>
 
   <defs>
     <radialGradient id="termGlow" cx="0.5" cy="0.5" r="0.9">
@@ -20,35 +20,60 @@
   <circle cx="112" cy="41" r="5" fill="#24344F"/>
   <text x="150" y="46" font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="12" fill="#5A6B85" letter-spacing="1">piyush@lab: ~/piyush-AIML</text>
 
-  <!-- boot lines: each freezes in, staggered -->
+  <!-- boot lines: each freezes in, staggered; values color-coded by category -->
   <g font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="14">
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.4s" fill="freeze"/>
       <text x="70" y="92"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> piyush-AIML/piyush-AIML :: </tspan><tspan fill="#C9D4E3">boot v2.0</tspan></text>
+      <rect x="824" y="80" width="8" height="8" fill="#00F7FF">
+        <animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.4s" fill="freeze"/>
+        <animate attributeName="opacity" values="1;0.35;1" dur="4s" begin="0.75s" repeatCount="indefinite"/>
+      </rect>
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.6s" fill="freeze"/>
-      <text x="70" y="118"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> loading identity ......... </tspan><tspan fill="#C9D4E3">student · builder · obsessed with intelligence</tspan></text>
+      <text x="70" y="118"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> loading identity ......... </tspan><tspan fill="#00F7FF">student · builder · obsessed with intelligence</tspan></text>
+      <rect x="824" y="106" width="8" height="8" fill="#00F7FF">
+        <animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.6s" fill="freeze"/>
+        <animate attributeName="opacity" values="1;0.35;1" dur="4s" begin="1.95s" repeatCount="indefinite"/>
+      </rect>
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.8s" fill="freeze"/>
-      <text x="70" y="144"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> loading skill graph ...... </tspan><tspan fill="#C9D4E3">12 modules · 6 domains · 4 ACTIVE · 2 IN-FLIGHT</tspan></text>
+      <text x="70" y="144"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> loading skill graph ...... </tspan><tspan fill="#7C3AED">12 modules · 6 domains</tspan><tspan fill="#C9D4E3"> · </tspan><tspan fill="#00F7FF">4 ACTIVE</tspan><tspan fill="#C9D4E3"> · </tspan><tspan fill="#E879F9">2 IN-FLIGHT</tspan></text>
+      <rect x="824" y="132" width="8" height="8" fill="#7C3AED">
+        <animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.8s" fill="freeze"/>
+      </rect>
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="4.0s" fill="freeze"/>
-      <text x="70" y="170"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> linking projects ......... </tspan><tspan fill="#C9D4E3">VLM-1 </tspan><tspan fill="#00F7FF">BUILDING</tspan><tspan fill="#C9D4E3"> · web-host </tspan><tspan fill="#00F7FF">ACTIVE</tspan><tspan fill="#C9D4E3"> · profile </tspan><tspan fill="#00F7FF">DEPLOYED</tspan></text>
+      <text x="70" y="170"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> linking projects ......... </tspan><tspan fill="#E879F9">VLM-1 </tspan><tspan fill="#E879F9" fill-opacity="0.7">BUILDING</tspan><tspan fill="#C9D4E3"> · </tspan><tspan fill="#00F7FF">web-host </tspan><tspan fill="#00F7FF" fill-opacity="0.7">ACTIVE</tspan><tspan fill="#C9D4E3"> · </tspan><tspan fill="#7BE0B0">profile </tspan><tspan fill="#7BE0B0" fill-opacity="0.7">DEPLOYED</tspan></text>
+      <rect x="824" y="158" width="8" height="8" fill="#E879F9">
+        <animate attributeName="opacity" values="0;1" dur="0.35s" begin="4.0s" fill="freeze"/>
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" begin="4.35s" repeatCount="indefinite"/>
+      </rect>
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="5.2s" fill="freeze"/>
       <text x="70" y="196"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> honesty check ............ </tspan><tspan fill="#7BE0B0">ok</tspan><tspan fill="#C9D4E3"> — nothing fabricated</tspan></text>
+      <rect x="824" y="184" width="8" height="8" fill="#7BE0B0">
+        <animate attributeName="opacity" values="0;1" dur="0.35s" begin="5.2s" fill="freeze"/>
+        <animate attributeName="opacity" values="1;0.4;1" dur="3s" begin="5.55s" repeatCount="indefinite"/>
+      </rect>
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="6.4s" fill="freeze"/>
-      <text x="70" y="222"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> current state ............ </tspan><tspan fill="#C9D4E3">human-in-the-loop training</tspan></text>
+      <text x="70" y="222"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> current state ............ </tspan><tspan fill="#00F7FF">human-in-the-loop training</tspan></text>
+      <rect x="824" y="210" width="8" height="8" fill="#00F7FF">
+        <animate attributeName="opacity" values="0;1" dur="0.35s" begin="6.4s" fill="freeze"/>
+      </rect>
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="7.6s" fill="freeze"/>
       <text x="70" y="248"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#00F7FF"> ready. </tspan><tspan fill="#3A4A63">// curiosity remaining: ∞</tspan></text>
+      <rect x="824" y="236" width="8" height="8" fill="#7BE0B0">
+        <animate attributeName="opacity" values="0;1" dur="0.35s" begin="7.6s" fill="freeze"/>
+      </rect>
     </g>
   </g>
 
