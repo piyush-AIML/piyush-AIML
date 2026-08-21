@@ -91,7 +91,8 @@ def stats(days, today):
 
 
 def shell(inner: str) -> str:
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" width="100%" '
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
+            f'viewBox="0 0 1000 230" width="100%" '
             f'role="img" aria-labelledby="t d"><title id="t">Contribution energy field — '
             f'real GitHub data</title><desc id="d">Each cell is one real day of contributions; '
             f'brightness follows GitHub contribution levels. Regenerated daily by a GitHub '
