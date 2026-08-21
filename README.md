@@ -24,7 +24,7 @@ What's real is measured. What isn't real yet is drawn as empty space, not as a c
 
 ## `// LEARNING CONSTELLATION`
 
-<img width="100%" src="assets/constellation.svg" alt="Star map of learning domains: Python, NumPy/Pandas and machine learning glow as ACTIVE, deep learning pulses as LEARNING, LLMs / computer vision / MLOps are dim EXPLORING nodes, and an unmapped region of sky is honestly left dark." />
+<img width="100%" src="assets/constellation.svg" alt="Two-tier star map of the real skill tree: six lit hubs — Python backend, system design, LLMs, indoor navigation (ACTIVE, cyan), fine-tuning (BUILDING, magenta), AI engineering (LEARNING, violet) — each ringed by its sub-skill satellites, with unmapped sky honestly left dark." />
 
 Brightness and line weight reflect real depth, not invented percentages. The unmapped sky stays unmapped.
 
@@ -32,12 +32,14 @@ Brightness and line weight reflect real depth, not invented percentages. The unm
 
 ## `// CURRENT STACK`
 
-| CATEGORY | STATE | TOOLS |
+| DOMAIN | STATE | SKILL TREE |
 | --- | --- | --- |
-| Core | `ACTIVE` | Python, NumPy, Pandas, scikit-learn |
-| Deep learning | `LEARNING` | PyTorch, TensorFlow |
-| Exploring | `EXPLORING` | LLM tooling, computer vision, MLOps |
-| Tools | `ACTIVE` | Git, Linux, VS Code, Jupyter |
+| Python backend | `ACTIVE` | FastAPI · async APIs · REST · data & storage · deploy/ops (exploring) |
+| System design | `ACTIVE` | distributed systems · scalability & caching · queues · data modeling |
+| LLMs | `ACTIVE` | RAG & embeddings · prompt & context · agents & tooling (exploring) |
+| AI engineering | `LEARNING` | ML pipelines · model serving & eval · MLOps (exploring) |
+| Fine-tuning | `BUILDING` | PEFT & adapters · dataset curation · eval & benchmarks |
+| Indoor navigation | `ACTIVE` | SLAM & localization · sensor fusion · path planning · mapping |
 
 States are honest — no percentage bars, because a self-taught skill has no measured width.
 
