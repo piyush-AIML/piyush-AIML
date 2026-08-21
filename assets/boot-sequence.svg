@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 320" width="100%" role="img" aria-labelledby="boot-title boot-desc">
+  <title id="boot-title">Boot sequence — piyush-AIML profile v2</title>
+  <desc id="boot-desc">A terminal window where the profile's own boot log types itself out line by line, ending with a blinking cursor. Purely storytelling about this artifact — not real system output.</desc>
+
+  <defs>
+    <radialGradient id="termGlow" cx="0.5" cy="0.5" r="0.9">
+      <stop offset="0%" stop-color="#0A1120"/>
+      <stop offset="100%" stop-color="#05070D"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="320" fill="url(#termGlow)"/>
+
+  <!-- window -->
+  <rect x="40" y="22" width="820" height="274" rx="10" fill="#070B16" stroke="#16243C" stroke-width="1"/>
+  <rect x="40" y="22" width="820" height="38" rx="10" fill="#0A0F1C"/>
+  <line x1="40" y1="60" x2="860" y2="60" stroke="#16243C" stroke-width="1"/>
+  <circle cx="72" cy="41" r="5" fill="#24344F"/>
+  <circle cx="92" cy="41" r="5" fill="#24344F"/>
+  <circle cx="112" cy="41" r="5" fill="#24344F"/>
+  <text x="150" y="46" font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="12" fill="#5A6B85" letter-spacing="1">piyush@lab: ~/piyush-AIML</text>
+
+  <!-- boot lines: each freezes in, staggered -->
+  <g font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="14">
+    <g>
+      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.4s" fill="freeze"/>
+      <text x="70" y="92"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> piyush-AIML/piyush-AIML :: </tspan><tspan fill="#C9D4E3">boot v2.0</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.6s" fill="freeze"/>
+      <text x="70" y="118"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> loading identity ......... </tspan><tspan fill="#C9D4E3">student · builder · AI/ML developer</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.8s" fill="freeze"/>
+      <text x="70" y="144"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> loading skill graph ...... </tspan><tspan fill="#C9D4E3">core ×3 active · deep learning · ×3 exploring</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="4.0s" fill="freeze"/>
+      <text x="70" y="170"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> linking projects ......... </tspan><tspan fill="#C9D4E3">VLM-1 </tspan><tspan fill="#00F7FF">BUILDING</tspan><tspan fill="#C9D4E3"> · web-host </tspan><tspan fill="#00F7FF">ACTIVE</tspan><tspan fill="#C9D4E3"> · profile </tspan><tspan fill="#00F7FF">DEPLOYED</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="5.2s" fill="freeze"/>
+      <text x="70" y="196"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> honesty check ............ </tspan><tspan fill="#7BE0B0">ok</tspan><tspan fill="#C9D4E3"> — nothing fabricated</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="6.4s" fill="freeze"/>
+      <text x="70" y="222"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> current state ............ </tspan><tspan fill="#C9D4E3">mid-transformation · velocity over polish</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="7.6s" fill="freeze"/>
+      <text x="70" y="248"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#00F7FF"> ready.</tspan></text>
+    </g>
+  </g>
+
+  <!-- cursor: blinks slowly after the last line, the system still thinking -->
+  <rect x="130" y="238" width="9" height="17" fill="#00F7FF">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.4s" begin="8.6s" repeatCount="indefinite"/>
+  </rect>
+</svg>

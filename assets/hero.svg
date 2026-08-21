@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 420" width="100%" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">PIYUSH.AI — system waking</title>
+  <desc id="hero-desc">A dark instrument panel: a breathing cyan core with expanding pulse rings on the left, a node field with traveling signals on the right, and the name PIYUSH.AI in light lettering. All motion is slow SMIL animation — computation happening, not decoration.</desc>
+
+  <defs>
+    <radialGradient id="bgGlow" cx="0.12" cy="0.5" r="0.9">
+      <stop offset="0%" stop-color="#0A1120"/>
+      <stop offset="55%" stop-color="#060B16"/>
+      <stop offset="100%" stop-color="#05070D"/>
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#00F7FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00F7FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D9FAFF"/>
+      <stop offset="50%" stop-color="#F2FBFF"/>
+      <stop offset="100%" stop-color="#CDD3FF"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00F7FF"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#00F7FF" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#00F7FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bgGlow)"/>
+
+  <!-- rule lines: three horizontals, faint -->
+  <line x1="0" y1="140" x2="1200" y2="140" stroke="#0D1526" stroke-width="1"/>
+  <line x1="0" y1="280" x2="1200" y2="280" stroke="#0D1526" stroke-width="1"/>
+  <line x1="0" y1="56" x2="1200" y2="56" stroke="#0D1526" stroke-width="1"/>
+
+  <!-- top ticks -->
+  <g stroke="#14203A" stroke-width="1">
+    <line x1="0" y1="8" x2="0" y2="13"/>
+    <line x1="150" y1="8" x2="150" y2="13"/>
+    <line x1="300" y1="8" x2="300" y2="13"/>
+    <line x1="450" y1="8" x2="450" y2="13"/>
+    <line x1="600" y1="8" x2="600" y2="13"/>
+    <line x1="750" y1="8" x2="750" y2="13"/>
+    <line x1="900" y1="8" x2="900" y2="13"/>
+    <line x1="1050" y1="8" x2="1050" y2="13"/>
+    <line x1="1200" y1="8" x2="1200" y2="13"/>
+  </g>
+
+  <!-- corner brackets -->
+  <g stroke="#7C3AED" stroke-opacity="0.4" stroke-width="1.5" fill="none">
+    <path d="M12,34 V16 Q12,12 16,12 H34"/>
+    <path d="M1166,12 H1184 Q1188,12 1188,16 V34"/>
+    <path d="M12,386 V404 Q12,408 16,408 H34"/>
+    <path d="M1166,408 H1184 Q1188,408 1188,404 V386"/>
+  </g>
+
+  <!-- static node field (the lab's background computation) -->
+  <g fill="#16263F">
+    <circle cx="880" cy="90" r="2.2"/>
+    <circle cx="960" cy="130" r="2.2"/>
+    <circle cx="1040" cy="80" r="2.2"/>
+    <circle cx="1120" cy="140" r="2.2"/>
+    <circle cx="900" cy="210" r="2.2"/>
+    <circle cx="1010" cy="240" r="2.2"/>
+    <circle cx="1100" cy="220" r="2.2"/>
+    <circle cx="940" cy="320" r="2.2"/>
+    <circle cx="1030" cy="360" r="2.2"/>
+    <circle cx="1120" cy="300" r="2.2"/>
+    <circle cx="860" cy="380" r="2.2"/>
+    <circle cx="1040" cy="330" r="2.2"/>
+  </g>
+  <!-- brighter endpoints -->
+  <circle cx="880" cy="90" r="2.6" fill="#00F7FF" fill-opacity="0.5"/>
+  <circle cx="1120" cy="300" r="2.6" fill="#00F7FF" fill-opacity="0.5"/>
+
+  <!-- link lines to the core -->
+  <g stroke="#0F1A2E" stroke-width="1" fill="none">
+    <line x1="880" y1="90" x2="150" y2="210"/>
+    <line x1="960" y1="130" x2="150" y2="210"/>
+    <line x1="1120" y1="300" x2="150" y2="210"/>
+    <line x1="880" y1="90" x2="960" y2="130"/>
+    <line x1="900" y1="210" x2="940" y2="320"/>
+    <line x1="1100" y1="220" x2="1040" y2="330"/>
+  </g>
+
+  <!-- twinkling starfield -->
+  <g fill="#2A3D63">
+    <circle cx="240" cy="90" r="1.5"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="60" r="1.5"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="9s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="380" r="1.5"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="11s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="180" r="1.5"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="8s" begin="3s" repeatCount="indefinite"/></circle>
+    <circle cx="480" cy="40" r="1.5"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="10s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="340" cy="370" r="1.5"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="12s" begin="4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- traveling signals -->
+  <g>
+    <circle cx="880" cy="90" r="2.6" fill="#00F7FF">
+      <animateMotion path="M880,90 L150,210" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.05;0.25;0.8;1" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="300" r="2.4" fill="#7C3AED">
+      <animateMotion path="M1120,300 C1000,250 850,250 700,190" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.05;0.25;0.8;1" dur="13s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="210" r="2.4" fill="#00F7FF">
+      <animateMotion path="M150,210 C320,280 440,330 560,360" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.05;0.25;0.8;1" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- the core: breathing, pulsing, alive -->
+  <g>
+    <circle cx="150" cy="210" r="46" fill="url(#coreGlow)">
+      <animate attributeName="opacity" values="0.55;0.95;0.55" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="210" r="44" fill="none" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="1" stroke-dasharray="3 7">
+      <animateTransform attributeName="transform" type="rotate" from="0 150 210" to="360 150 210" dur="90s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="210" r="30" fill="none" stroke="#00F7FF" stroke-width="1.5">
+      <animate attributeName="r" values="28;34;28" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.35;0.75;0.35" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="210" r="18" fill="none" stroke="#00F7FF" stroke-width="1">
+      <animate attributeName="r" values="16;20;16" dur="6s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="6s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="210" r="4.5" fill="#E879F9" filter="url(#glow)">
+      <animate attributeName="r" values="4;5.5;4" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="210" r="14" fill="none" stroke="#00F7FF" stroke-width="1">
+      <animate attributeName="r" values="14;115" dur="7s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.5;0" dur="7s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="210" r="14" fill="none" stroke="#00F7FF" stroke-width="1">
+      <animate attributeName="r" values="14;115" dur="7s" begin="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.5;0" dur="7s" begin="3.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- identity block -->
+  <g font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace">
+    <text x="380" y="205" font-size="56" font-weight="700" letter-spacing="7" fill="url(#nameGrad)">PIYUSH.AI</text>
+    <rect x="384" y="228" width="200" height="1" fill="url(#lineGrad)"/>
+    <circle r="2.2" fill="#00F7FF">
+      <animateMotion path="M384,228.5 L584,228.5" keyPoints="0;1;0" keyTimes="0;0.5;1" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="384" y="262" font-size="20" letter-spacing="5" fill="#7C3AED">AI/ML DEVELOPER</text>
+    <text x="384" y="290" font-size="13" letter-spacing="2.5" fill="#4A5B78">student, builder — early arc, moving with real velocity</text>
+  </g>
+
+  <!-- scanline -->
+  <rect x="0" y="-70" width="1200" height="70" fill="url(#scanGrad)">
+    <animate attributeName="y" values="-70;420" dur="13s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- readouts -->
+  <g font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="10" letter-spacing="2" fill="#3A4A63">
+    <text x="24" y="28">PIYUSH.AI :: LAB</text>
+    <text x="1176" y="28" text-anchor="end">A MIND IN PROGRESS</text>
+    <text x="24" y="400">CURRENT STATE: MID-TRANSFORMATION</text>
+    <text x="1176" y="400" text-anchor="end">VELOCITY: REAL</text>
+  </g>
+</svg>

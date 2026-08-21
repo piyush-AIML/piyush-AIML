@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 560" width="100%" role="img" aria-labelledby="con-title con-desc">
+  <title id="con-title">Learning constellation — Piyush's AI/ML path</title>
+  <desc id="con-desc">A star map of real learning domains. Active domains glow cyan, deep learning pulses violet, exploring domains stay dim, and the unmapped sky is honestly drawn as unmapped. Brighter links mean real depth, not claimed percentages.</desc>
+
+  <defs>
+    <radialGradient id="skyGlow" cx="0.55" cy="0.5" r="0.85">
+      <stop offset="0%" stop-color="#0A1120"/>
+      <stop offset="100%" stop-color="#05070D"/>
+    </radialGradient>
+    <radialGradient id="nodeGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#00F7FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#skyGlow)"/>
+
+  <!-- sky: static dust, a few slow twinkles -->
+  <g fill="#1B2944">
+    <circle cx="90" cy="80" r="1.2"/>
+    <circle cx="210" cy="60" r="0.9"/>
+    <circle cx="300" cy="120" r="1.3"/>
+    <circle cx="450" cy="70" r="1"/>
+    <circle cx="540" cy="180" r="1.2"/>
+    <circle cx="640" cy="60" r="1.1"/>
+    <circle cx="780" cy="90" r="1.3"/>
+    <circle cx="860" cy="60" r="0.9"/>
+    <circle cx="950" cy="140" r="1.1"/>
+    <circle cx="60" cy="200" r="1"/>
+    <circle cx="160" cy="260" r="1.2"/>
+    <circle cx="250" cy="340" r="0.9"/>
+    <circle cx="120" cy="420" r="1.1"/>
+    <circle cx="560" cy="420" r="1"/>
+    <circle cx="640" cy="500" r="1.2"/>
+    <circle cx="830" cy="520" r="1"/>
+    <circle cx="930" cy="470" r="1.2"/>
+    <circle cx="980" cy="330" r="0.9"/>
+    <circle cx="420" cy="480" r="1.1"/>
+    <circle cx="900" cy="150" r="1"/>
+  </g>
+  <g fill="#2A3D63">
+    <circle cx="350" cy="60" r="1.4"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="140" r="1.4"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="10s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="180" r="1.4"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="9s" begin="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="300" r="1.4"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="11s" begin="3.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- unmapped sky: an honest dark region -->
+  <g>
+    <circle cx="150" cy="450" r="120" fill="none" stroke="#16243C" stroke-width="1" stroke-dasharray="2 6"/>
+    <text x="150" y="446" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="12" letter-spacing="3" fill="#3A4A63">UNMAPPED SKY</text>
+    <text x="150" y="464" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="9" letter-spacing="1" fill="#2A3A55">future domains live here</text>
+  </g>
+
+  <!-- connections: brighter = more depth -->
+  <g fill="none">
+    <line x1="380" y1="140" x2="500" y2="300" stroke="#00F7FF" stroke-width="2" stroke-opacity="0.5"/>
+    <line x1="600" y1="110" x2="500" y2="300" stroke="#00F7FF" stroke-width="1.8" stroke-opacity="0.45"/>
+    <line x1="500" y1="300" x2="720" y2="310" stroke="#7C3AED" stroke-width="1.8" stroke-opacity="0.55"/>
+    <line x1="720" y1="310" x2="880" y2="190" stroke="#7C3AED" stroke-width="1" stroke-opacity="0.35" stroke-dasharray="3 5"/>
+    <line x1="720" y1="310" x2="880" y2="410" stroke="#7C3AED" stroke-width="1" stroke-opacity="0.35" stroke-dasharray="3 5"/>
+    <line x1="500" y1="300" x2="700" y2="480" stroke="#4A5B78" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="3 5"/>
+    <line x1="380" y1="140" x2="600" y2="110" stroke="#00F7FF" stroke-width="1" stroke-opacity="0.25" stroke-dasharray="2 4"/>
+  </g>
+
+  <!-- pulse traveling the spine: python → ml → dl -->
+  <g>
+    <circle r="2.4" fill="#E879F9">
+      <animateMotion path="M380,140 L500,300 L720,310" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.05;0.2;0.85;1" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.2" fill="#00F7FF">
+      <animateMotion path="M600,110 L500,300" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.05;0.2;0.85;1" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- nodes -->
+  <g font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace">
+    <!-- PYTHON — ACTIVE -->
+    <g>
+      <circle cx="380" cy="140" r="13" fill="url(#nodeGlow)"/>
+      <circle cx="380" cy="140" r="6" fill="#00F7FF">
+        <animate attributeName="r" values="6;7.4;6" dur="4.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="380" y="176" text-anchor="middle" font-size="12" letter-spacing="2" fill="#C9D4E3">PYTHON</text>
+      <text x="380" y="190" text-anchor="middle" font-size="10" letter-spacing="2" fill="#00F7FF">ACTIVE</text>
+    </g>
+
+    <!-- DATA — ACTIVE -->
+    <g>
+      <circle cx="600" cy="110" r="12" fill="url(#nodeGlow)"/>
+      <circle cx="600" cy="110" r="5.5" fill="#00F7FF">
+        <animate attributeName="r" values="5.5;6.8;5.5" dur="5s" begin="0.7s" repeatCount="indefinite"/>
+      </circle>
+      <text x="600" y="146" text-anchor="middle" font-size="12" letter-spacing="2" fill="#C9D4E3">NUMPY · PANDAS</text>
+      <text x="600" y="160" text-anchor="middle" font-size="10" letter-spacing="2" fill="#00F7FF">ACTIVE</text>
+    </g>
+
+    <!-- MACHINE LEARNING — ACTIVE, the heart -->
+    <g>
+      <circle cx="500" cy="300" r="18" fill="url(#nodeGlow)"/>
+      <circle cx="500" cy="300" r="22" fill="none" stroke="#00F7FF" stroke-width="1">
+        <animate attributeName="r" values="16;40" dur="5s" begin="0s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.4;0" dur="5s" begin="0s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="500" cy="300" r="9" fill="#00F7FF">
+        <animate attributeName="r" values="9;10.5;9" dur="4s" begin="0.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="500" y="338" text-anchor="middle" font-size="12" letter-spacing="2" fill="#EAF6FF">MACHINE LEARNING</text>
+      <text x="500" y="352" text-anchor="middle" font-size="10" letter-spacing="2" fill="#00F7FF">ACTIVE · CORE</text>
+    </g>
+
+    <!-- DEEP LEARNING — LEARNING -->
+    <g>
+      <circle cx="720" cy="310" r="12" fill="none" stroke="#7C3AED" stroke-width="1" stroke-dasharray="4 5" stroke-opacity="0.7">
+        <animateTransform attributeName="transform" type="rotate" from="0 720 310" to="360 720 310" dur="40s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="720" cy="310" r="5.5" fill="#7C3AED">
+        <animate attributeName="r" values="5.5;6.8;5.5" dur="3.8s" begin="1.1s" repeatCount="indefinite"/>
+      </circle>
+      <text x="720" y="348" text-anchor="middle" font-size="12" letter-spacing="2" fill="#C9D4E3">DEEP LEARNING</text>
+      <text x="720" y="362" text-anchor="middle" font-size="10" letter-spacing="2" fill="#7C3AED">LEARNING</text>
+    </g>
+
+    <!-- LLMs — EXPLORING -->
+    <g>
+      <circle cx="880" cy="190" r="3.5" fill="#3A4A63"/>
+      <text x="880" y="222" text-anchor="middle" font-size="12" letter-spacing="2" fill="#5A6B85">LLMS</text>
+      <text x="880" y="236" text-anchor="middle" font-size="10" letter-spacing="2" fill="#3A4A63">EXPLORING</text>
+    </g>
+
+    <!-- COMPUTER VISION — EXPLORING -->
+    <g>
+      <circle cx="880" cy="410" r="3.5" fill="#3A4A63"/>
+      <text x="880" y="442" text-anchor="middle" font-size="12" letter-spacing="2" fill="#5A6B85">COMPUTER VISION</text>
+      <text x="880" y="456" text-anchor="middle" font-size="10" letter-spacing="2" fill="#3A4A63">EXPLORING</text>
+    </g>
+
+    <!-- MLOPS — EXPLORING -->
+    <g>
+      <circle cx="700" cy="480" r="3.5" fill="#3A4A63"/>
+      <text x="700" y="512" text-anchor="middle" font-size="12" letter-spacing="2" fill="#5A6B85">MLOPS</text>
+      <text x="700" y="526" text-anchor="middle" font-size="10" letter-spacing="2" fill="#3A4A63">EXPLORING</text>
+    </g>
+  </g>
+
+  <!-- header -->
+  <text x="40" y="40" font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="14" letter-spacing="3" fill="#5A6B85">// LEARNING CONSTELLATION</text>
+  <text x="960" y="40" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="10" letter-spacing="2" fill="#3A4A63">HONEST MAP — UNMAPPED STAYS UNMAPPED</text>
+
+  <!-- legend -->
+  <g font-family="'JetBrains Mono','IBM Plex Mono',Consolas,'SF Mono',Menlo,monospace" font-size="11" letter-spacing="2">
+    <rect x="700" y="500" width="10" height="10" fill="#00F7FF"/>
+    <text x="720" y="509" fill="#5A6B85">ACTIVE</text>
+    <rect x="780" y="500" width="10" height="10" fill="#7C3AED"/>
+    <text x="800" y="509" fill="#5A6B85">LEARNING</text>
+    <rect x="870" y="500" width="10" height="10" fill="#3A4A63"/>
+    <text x="890" y="509" fill="#5A6B85">EXPLORING</text>
+  </g>
+</svg>

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PIYUSH.AI — profile preview (local)</title>
+<style>
+  :root {
+    --bg: #05070D;
+    --panel: #0A0F1C;
+    --line: #16243C;
+    --text: #C9D4E3;
+    --dim: #5A6B85;
+    --faint: #3A4A63;
+    --cyan: #00F7FF;
+    --violet: #7C3AED;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "JetBrains Mono", "IBM Plex Mono", Consolas, "SF Mono", Menlo, monospace;
+  }
+  main { max-width: 1000px; margin: 0 auto; padding: 40px 24px 80px; }
+  .notice {
+    border: 1px solid var(--line);
+    background: var(--panel);
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-size: 12px;
+    color: var(--dim);
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  .notice code { color: var(--cyan); }
+  section { margin: 56px 0; }
+  h2 {
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: var(--text);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+  h2::before { content: "// "; color: var(--violet); }
+  img { width: 100%; display: block; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--line);
+    color: var(--text);
+  }
+  th { color: var(--dim); font-weight: 500; letter-spacing: 2px; font-size: 11px; }
+  .state { color: var(--cyan); }
+  .empty { color: var(--faint); }
+  ol { color: var(--dim); line-height: 2; font-size: 13px; }
+  a { color: var(--cyan); }
+  .sub { color: var(--faint); font-size: 11px; text-align: center; margin-top: 8px; letter-spacing: 1px; }
+</style>
+</head>
+<body>
+<main>
+
+  <div class="notice">
+    LOCAL PREVIEW — not the GitHub render. Serves the exact files the README references, on the
+    profile's real dark canvas, so motion and layout can be judged here. For the actual artifact
+    open <code>README.md</code> on github.com. Serve with: <code>python3 -m http.server</code>
+    then open <code>http://localhost:8000/preview.html</code>.
+  </div>
+
+  <img src="assets/hero.svg" alt="">
+  <p class="sub">STUDENT · BUILDER · AI/ML DEVELOPER</p>
+
+  <section>
+    <h2>BOOT SEQUENCE</h2>
+    <img src="assets/boot-sequence.svg" alt="">
+  </section>
+
+  <section>
+    <h2>ABOUT THE SYSTEM</h2>
+    <p style="color:var(--dim); font-size:14px; line-height:1.9; max-width:72ch;">
+      Early-arc AI/ML builder. The work here is a workbench, not a portfolio: a vision-language
+      model being trained from scratch instead of assembled from libraries, a small hosting
+      experiment, and this profile — which is itself an instrument panel for a mind in progress.
+      What's real is measured. What isn't real yet is drawn as empty space, not as a claim.
+    </p>
+  </section>
+
+  <section>
+    <h2>LEARNING CONSTELLATION</h2>
+    <img src="assets/constellation.svg" alt="">
+  </section>
+
+  <section>
+    <h2>CURRENT STACK</h2>
+    <table>
+      <tr><th>CATEGORY</th><th>STATE</th><th>TOOLS</th></tr>
+      <tr><td>Core</td><td class="state">ACTIVE</td><td>Python, NumPy, Pandas, scikit-learn</td></tr>
+      <tr><td>Deep learning</td><td class="state">LEARNING</td><td>PyTorch, TensorFlow</td></tr>
+      <tr><td>Exploring</td><td class="state">EXPLORING</td><td>LLM tooling, computer vision, MLOps</td></tr>
+      <tr><td>Tools</td><td class="state">ACTIVE</td><td>Git, Linux, VS Code, Jupyter</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>PROJECTS</h2>
+    <table>
+      <tr><th>PROJECT</th><th>WHAT IT IS</th><th>STATE</th></tr>
+      <tr><td><a href="https://github.com/piyush-AIML/VLM-1">VLM-1</a></td><td>vision-language model built from scratch — ViT + Q-Former</td><td class="state">BUILDING</td></tr>
+      <tr><td><a href="https://github.com/piyush-AIML/web-host">web-host</a></td><td>small hosting experiment for multiple sites</td><td class="state">ACTIVE</td></tr>
+      <tr><td><a href="https://github.com/piyush-AIML/piyush-AIML">this profile</a></td><td>the artifact you're reading</td><td class="state">DEPLOYED</td></tr>
+      <tr><td class="empty">PROJECT SLOT // AWAITING BUILD</td><td class="empty">—</td><td class="empty">EMPTY</td></tr>
+      <tr><td class="empty">PROJECT SLOT // AWAITING BUILD</td><td class="empty">—</td><td class="empty">EMPTY</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>TELEMETRY</h2>
+    <img src="assets/generated/contributions.svg" alt="">
+    <p class="sub">regenerated daily by a GitHub Action · real data only · timestamped in-image</p>
+  </section>
+
+  <section>
+    <h2>WHERE THIS IS HEADED</h2>
+    <ol>
+      <li>Finish what's started — keep the VLM-1 training loop honest and running</li>
+      <li>Open the lab — publish experiments and notebooks as they happen</li>
+      <li>Learn in public — notes on the from-scratch rebuilds, not summaries of tutorials</li>
+    </ol>
+  </section>
+
+  <img src="assets/standby.svg" alt="">
+
+</main>
+</body>
+</html>
