@@ -1,137 +1,260 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=PIYUSH&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
-</p>
+<div align="center">
 
-<h1 align="center">👋 Hey, I'm Piyush</h1>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&customColorList=12,14,16,18,20&text=PIYUSH-AIML&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=NEURAL%20SYSTEMS%20%2F%2F%20MACHINE%20LEARNING%20%2F%2F%20AI&descAlignY=60&descSize=16"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&multiline=true&repeat=true&width=850&height=100&lines=%3E+INITIALIZING+NEURAL+INTERFACE...;%3E+AI%2FML+STUDENT+%7C+PYTHON+DEVELOPER;%3E+BUILDING+INTELLIGENT+SYSTEMS;%3E+LEARNING.+EXPERIMENTING.+EVOLVING." />
+
+</div>
+
+<br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=750&lines=AI%2FML+Student+%F0%9F%A4%96;Machine+Learning+Enthusiast+%F0%9F%A7%A0;Python+Developer+%F0%9F%90%8D;Building%2C+Learning%2C+Experimenting+%F0%9F%9A%80" />
-</p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=piyush-AIML&label=Profile%20Views&color=00ffff&style=for-the-badge" />
+<img src="https://img.shields.io/badge/STATUS-ONLINE-00F7FF?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/FOCUS-AI%2FML-9D00FF?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/MODE-BUILDING-FF00FF?style=for-the-badge&labelColor=0D1117"/>
+
 </p>
 
 ---
 
-## 🧑‍💻 About Me
+<div align="center">
+
+# `// WHO AM I?`
+
+### 🧠 AI/ML Student
+
+### 🐍 Python Developer
+
+### 🤖 Machine Learning Enthusiast
+
+### 🚀 Builder of Intelligent Systems
+
+<br>
+
+> **"The best way to predict the future is to build it."**
+
+</div>
+
+---
+
+# `01 // NEURAL PROFILE`
+
+<table>
+<tr>
+<td width="50%">
+
+### 🧠 CURRENTLY LEARNING
 
 ```text
-🤖 AI/ML Student
-🐍 Python Developer
-🧠 Exploring Machine Learning & Deep Learning
-📊 Interested in Data & Intelligent Systems
-🚀 Learning by building projects
-🌱 Currently growing my AI/ML skills
+╭─────────────────────────────╮
+│                             │
+│  🤖 MACHINE LEARNING        │
+│  🧠 DEEP LEARNING           │
+│  📊 DATA ANALYSIS           │
+│  🐍 PYTHON                  │
+│  🔬 AI EXPERIMENTATION      │
+│                             │
+╰─────────────────────────────╯
 ```
 
----
+</td>
 
-## ⚡ My Skills
+<td width="50%">
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,numpy,pandas,sklearn,git,github,vscode,jupyter&perline=8" />
-</p>
-
-<p align="center">
-
-🤖 Artificial Intelligence   •  
-🧠 Machine Learning   •  
-🔥 Deep Learning
-
-</p>
-
-<p align="center">
-
-📊 Data Analysis   •  
-📈 Data Visualization   •  
-💻 Python Development
-
-</p>
-
----
-
-## 🧠 AI / ML Journey
+### ⚡ CURRENT MISSION
 
 ```text
-                 🧠 AI / ML
-                     │
-          ┌──────────┼──────────┐
-          ↓          ↓          ↓
-      🤖 ML       🧠 DL      📊 Data
-          │          │          │
-          ↓          ↓          ↓
-     Scikit-learn  Neural     NumPy
-                   Networks   Pandas
-                              Matplotlib
+╭─────────────────────────────╮
+│                             │
+│  BUILD AI PROJECTS          │
+│       ↓                     │
+│  UNDERSTAND THE DATA        │
+│       ↓                     │
+│  TRAIN THE MODEL            │
+│       ↓                     │
+│  SHIP THE SYSTEM 🚀         │
+│                             │
+╰─────────────────────────────╯
 ```
 
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=piyush-AIML&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=FF00FF&text_color=FFFFFF" height="180"/>
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=piyush-AIML&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=FFFFFF" height="180"/>
-</p>
+</td>
+</tr>
+</table>
 
 ---
 
-## 🔥 GitHub Streak
+# `02 // TECH MATRIX`
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=piyush-AIML&theme=tokyonight&hide_border=true&background=0D1117&ring=00F7FF&fire=FF00FF&currStreakLabel=00F7FF" />
-</p>
+<div align="center">
 
----
+### ⚡ CORE
 
-## 🐍 My Contributions
+<img src="https://skillicons.dev/icons?i=python,numpy,pandas,sklearn&theme=dark" />
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/piyush-AIML/piyush-AIML/output/github-contribution-grid-snake.svg" />
-</p>
+<br><br>
 
----
+### 🛠️ DEVELOPMENT
 
-## 🚀 What I'm Working On
+<img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,linux&theme=dark" />
 
-- 🤖 Machine Learning projects
-- 🧠 Exploring Deep Learning
-- 📊 Working with data
-- 🐍 Improving my Python skills
-- 🌱 Learning something new every day
+<br><br>
+
+### 🧠 AI / DATA
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark" />
+
+</div>
 
 ---
 
-## 🎯 2026 Goals
+# `03 // SYSTEM ARCHITECTURE`
+
+<div align="center">
 
 ```text
-[████████░░] Master Machine Learning
-[██████░░░░] Build AI Projects
-[█████░░░░░] Learn Deep Learning
-[████░░░░░░] Contribute to Open Source
-[███░░░░░░░] Build Something Amazing 🚀
+                         ┌─────────────────┐
+                         │    PIYUSH.AI    │
+                         └────────┬────────┘
+                                  │
+                    ┌─────────────┴─────────────┐
+                    ↓                           ↓
+             ┌─────────────┐             ┌─────────────┐
+             │   DATA      │             │   MODELS    │
+             │             │             │             │
+             │ NumPy       │             │ ML          │
+             │ Pandas      │             │ Deep Learn  │
+             │ Matplotlib  │             │ AI          │
+             └──────┬──────┘             └──────┬──────┘
+                    │                           │
+                    └─────────────┬─────────────┘
+                                  ↓
+                         ┌─────────────────┐
+                         │  INTELLIGENCE   │
+                         │                 │
+                         │    🤖  🧠  ⚡   │
+                         └─────────────────┘
 ```
+
+</div>
 
 ---
 
-## 🌐 Connect With Me
+# `04 // GITHUB TELEMETRY`
 
-<p align="center">
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=piyush-AIML&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=FF00FF&text_color=FFFFFF&ring_color=00F7FF" width="49%"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=piyush-AIML&layout=compact&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=FFFFFF" width="41%"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=piyush-AIML&hide_border=true&background=0D1117&ring=00F7FF&fire=FF00FF&currStreakLabel=00F7FF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888" width="70%"/>
+
+</div>
+
+---
+
+# `05 // CONTRIBUTION MATRIX`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/piyush-AIML/piyush-AIML/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+
+</div>
+
+---
+
+# `06 // BUILD LOG`
+
+<div align="center">
+
+|     PROJECT      |         DOMAIN          |      STATUS      |
+| :--------------: | :---------------------: | :--------------: |
+|  🤖 AI Project   |    Machine Learning     |   🟢 BUILDING    |
+| 🧠 ML Experiment | Artificial Intelligence | 🟡 EXPERIMENTING |
+| 📊 Data Project  |      Data Science       |    🟢 ACTIVE     |
+
+</div>
+
+> Replace these with your real projects as you build them.
+
+---
+
+# `07 // 2026 MISSION`
+
+<div align="center">
+
+```text
+       NEURAL EVOLUTION
+
+████████████████████░░░░░░░░  MACHINE LEARNING
+███████████████░░░░░░░░░░░░  DEEP LEARNING
+████████████░░░░░░░░░░░░░░░  AI PROJECTS
+██████████░░░░░░░░░░░░░░░░░  OPEN SOURCE
+███████░░░░░░░░░░░░░░░░░░░░  SYSTEM DESIGN
+```
+
+</div>
+
+---
+
+# `08 // CONNECT`
+
+<div align="center">
 
 <a href="https://github.com/piyush-AIML">
-<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00F7FF"/>
+
+<img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=00F7FF"/>
+
 </a>
 
-</p>
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=piyush-AIML&label=NEURAL%20VISITORS&color=00F7FF&style=for-the-badge"/>
+
+</div>
 
 ---
 
-<h2 align="center">
-  ⚡ Learn • Build • Experiment • Repeat ⚡
-</h2>
+<div align="center">
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" width="100%"/>
-</p>
+### `SYSTEM STATUS`
+
+<img src="https://img.shields.io/badge/●%20ONLINE-00F7FF?style=flat-square&labelColor=0D1117"/>
+
+<br><br>
+
+**LEARN → BUILD → BREAK → DEBUG → EVOLVE**
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=1500&color=9D00FF&center=true&vCenter=true&width=500&lines=Neural+network+online...;Training+in+progress...;Piyush.exe+is+still+learning..." />
+
+</div>
+
+<br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=gradient&customColorList=12,14,16,18,20"/>
+
+<!--
+╔══════════════════════════════════════════════════════════════╗
+║                     PIYUSH-AIML                             ║
+║              NEURAL SYSTEM // ONLINE                       ║
+╚══════════════════════════════════════════════════════════════╝
+-->
