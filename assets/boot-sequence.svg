@@ -32,7 +32,7 @@
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.8s" fill="freeze"/>
-      <text x="70" y="144"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> loading skill graph ...... </tspan><tspan fill="#C9D4E3">6 domains · 4 ACTIVE · 2 IN-FLIGHT · 20 satellites</tspan></text>
+      <text x="70" y="144"><tspan fill="#00F7FF">&gt;</tspan><tspan fill="#5A6B85"> loading skill graph ...... </tspan><tspan fill="#C9D4E3">12 modules · 6 domains · 4 ACTIVE · 2 IN-FLIGHT</tspan></text>
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="4.0s" fill="freeze"/>

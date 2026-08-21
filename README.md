@@ -24,9 +24,9 @@ What's real is measured. What isn't real yet is drawn as empty space, not as a c
 
 ## `// LEARNING CONSTELLATION`
 
-<img width="100%" src="assets/constellation.svg" alt="Two-tier star map of the real skill tree: six lit hubs — Python backend, system design, LLMs, indoor navigation (ACTIVE, cyan), fine-tuning (BUILDING, magenta), AI engineering (LEARNING, violet) — each ringed by its sub-skill satellites, with unmapped sky honestly left dark." />
+<img width="100%" src="assets/constellation.svg" alt="Skill graph as a working architecture: module boxes — system design, data modeling, Python backend, ML pipelines, fine-tuning, eval, LLMs, MLOps — connected by directed workflow arrows (specs, features, train loop, checkpoints, ship, deploys, inference back to the API, monitors), with the indoor-navigation stack as its own subsystem pipeline from SLAM to path planning. Fast async pulses travel the edges." />
 
-Brightness and line weight reflect real depth, not invented percentages. The unmapped sky stays unmapped.
+The real workflow, drawn as a graph: design → train → serve → monitor, with fast async pulses traveling every edge. States are honest — no percentage bars.
 
 ---
 
