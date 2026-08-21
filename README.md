@@ -18,7 +18,7 @@
 
 <img width="100%" src="assets/constellation.svg" alt="Skill graph as a working architecture: module boxes — system design, data modeling, Python backend, ML pipelines, fine-tuning, eval, LLMs, MLOps — connected by directed workflow arrows (specs, features, train loop, checkpoints, ship, deploys, inference back to the API, monitors), with the indoor-navigation stack as its own subsystem pipeline from SLAM to path planning. Fast async pulses travel the edges." />
 
-The real workflow, drawn as a graph: design → train → serve → monitor, with fast async pulses traveling every edge — real systems breathe, and so does this one. States are honest: a skill has no measured width until it's shipped.
+** The real workflow, drawn as a graph: design → train → serve → monitor, with fast async pulses traveling every edge — real systems breathe, and so does this one. States are honest: a skill has no measured width until it's shipped. **
 
 ---
 
